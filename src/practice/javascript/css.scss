@@ -1,0 +1,54 @@
+.button-top-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  button {
+    cursor: pointer;
+    border: 0;
+  }
+  button:nth-child(2) {
+    border: 0;
+    background-color: red;
+    color: white;
+  }
+}
+
+.js-output-button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+.activity-container {
+  #var-head {
+    color: gray;
+  }
+  .dt_value {
+    color: red;
+  }
+  p:nth-child(1) {
+    background-color: lightgrey;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}
+
+.js_style {
+  font-weight: bold;
+  border-bottom: 0.1px solid rgba(208, 208, 208, 0.507);
+  padding-bottom: 1rem;
+}
+
+.change-color {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 5px;
+  padding: 5rem;
+  color: white;
+  cursor: pointer;
+}
